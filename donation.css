@@ -1,0 +1,82 @@
+.back-ground {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	background-size: 100%;
+}
+
+.donation-page {
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	align-items: center;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	padding: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.3s ease-in-out;
+}
+
+form {
+	opacity: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	opacity: 0;
+	width: 100%;
+	color: rgba(236, 228, 228, 0.897);
+	text-align: center;
+}
+
+.discription {
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h4 {
+	text-align: center;
+	color: white;
+}
+
+.form {
+	opacity: 1;
+	height: 80vh;
+	width: 50%;
+	background-color: rgb(21, 102, 252,0.3);
+	box-shadow: 0 2rem 5rem 0 rgba(208, 243, 11, 0.1);    
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	z-index: 10;
+}
+
+.form > * {
+	width: 80%;
+}
+
+input {
+	height: 2rem;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+span {
+	color: rgb(9, 9, 240);
+}
